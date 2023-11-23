@@ -1,0 +1,39 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top_Container {
+  min-height: 140px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+
+  .search {
+    input {
+      background-color: transparent;
+      border: 1px solid red;
+      color: white;
+      border-radius: 5px;
+      height: 40px;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  }
+}
+
+.filter_container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 40px;
+
+  button {
+    background: #ff4343;
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: none;
+    color: white;
+  }
+}
